@@ -1,0 +1,55 @@
+body {
+    font-family: var;
+}
+
+#name {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.introduce {
+    background-color:antiquewhite;
+    display: flex;
+    align-content: center;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.col-md-12 {
+    height: 100%;
+}
+
+h1 {
+    color:brown;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    color:chocolate;
+}
+
+h5 {
+    font-weight: bold;
+    color:chocolate;
+}
+
+#dropdown {
+    background-color:antiquewhite;
+}
